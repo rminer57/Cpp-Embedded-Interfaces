@@ -1,0 +1,19 @@
+ #!/bin/bash
+WELCOMESTR="Hello world. "
+ARG2=$2
+if [ "$1" != "" ]; then
+ARG1=$1
+else
+   ARG1="undefined"
+fi
+
+if [ "$2" != "" ]; then
+ARG2=$2
+else
+   ARG2="undefined"
+fi
+
+
+echo $WELCOMESTR
+echo "arg 1: " $ARG1
+echo "arg 2: " $ARG2
